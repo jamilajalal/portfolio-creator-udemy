@@ -1,42 +1,185 @@
+:root{
+	--narinci-reng:
+	#FF8A56
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
-@import url(reset.css);
+
+
+
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
 
 body{
-    font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
 }
+
 .header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-	padding: 41px 112.5px 0;
-    
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:41px 112.5px 0 ;
 }
+
+
 .nav-links a{
-    text-decoration: none;
-    color: #000;
-	padding-right: 20px;
- 
+text-decoration: none;
+padding-right:20px;
+color: #000;
+font-weight: 400;
+
 
 }
+.header a:hover{
+	text-decoration: underline;
+
+}
+
+
+
 .fa-bars{
-	display:none;
 	font-size: 26px;
+	display: none;
 	cursor: pointer;
 }
-    
-@media(max-width:910px)  {
+@media(max-width:910px){
 	.nav-links{
 		display: none;
-	
 	}
 	.fa-bars{
 		display: flex;
 	}
-}
-@media(max-width:700px) {
+
 	.header{
 		padding-left: 20px;
-	   padding-right:20px ;
+		padding-right: 20px;
+	
 	}
 }
+
+
+/* introduction */
+
+
+
+
+.introduction{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 112.5px;
+	padding-top: 16.7px;
+	flex-wrap: wrap;
+}
+.intro-left-side{
+	padding-top: 117px;
+	min-width: 715px; 
+
+}
+
+
+.dfc{
+	display: flex;
+	flex-direction: column;
+}
+
+
+.intro-left-side h1 span{
+	color: var(--narinci-reng);}
+
+ .intro-left-side h1{
+	font-size: 72px;
+	font-weight: 700;
+	margin-bottom: 34px;
+}
+
+.intro-left-side p{
+color:#666;
+font-weight: 400;
+
+}
+
+.book-a-call button{
+	width: 151px;
+	height: 58px;
+	background-color: #333;
+	color: #fff;
+margin-right:40px;
+
+}
+.book-a-call{
+	margin-top:38px;
+
+}
+.book-a-call a{
+	margin-right:14.33px;
+	text-decoration: none;
+	color: #222;
+}
+.intro-right-side{
+	margin-top: 70px;
+	min-width: 450px;
+}
+
+
+@media( max-width:1472px) and (min-width:911px){
+	.intro-left-side{
+		flex-basis: 100%;
+		text-align: center;
+		padding-top: 100px;
+	}
+.intro-right-side{
+margin: 0 auto;
+}
+
+
+}
+
+@media(max-width:910px) and (min-width:601px) {
+.introduction{
+	justify-content: center;
+	text-align: center;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.intro-left-side h1{
+	font-size: 60px;
+	
+}
+.intro-left-side{
+	min-width:550px ;
+	padding-top: 80px;
+}
+
+}
+
+
+
+
+
+
+@media(max-width:600px){
+.introduction{
+	padding-left: 0px;
+	padding-right: 0px;
+justify-content:center;
+text-align: center;
+}
+
+.intro-left-side h1{
+	font-size: 50px;
+	
+}
+
+.intro-left-side{
+	min-width: 300px;
+	padding-top: 50px;
+}
+
+
+.header{
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+}
+

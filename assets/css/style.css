@@ -214,14 +214,55 @@ text-align: center;
 }
 }
 
-
-
-
-
-
-
-
-
-
-
 /* TRUSTED BY END */
+
+
+
+/* services start*/
+ .services-cards ul{
+	list-style-type:square;
+	
+ }
+
+ .services-cards{
+	display: flex;
+	padding: 117px 171px 0px 171px;
+justify-content: space-around;
+flex-wrap: wrap;
+ }
+
+.services h6{
+	text-align: center;
+	font-weight: 700;
+	font-size: 22px;
+	margin-top: 156px;
+	color: 
+	#FF5E69;
+	text-transform: uppercase;
+	letter-spacing:2px;
+
+}
+.services h1{
+	text-align: center;
+	font-size: 54px;
+
+}
+.service-card p{
+	width: 252px;
+
+}
+.service-card{
+	min-width:250px;
+}
+
+
+@media(max-width:782px) and (min-width:500px){
+.services h1{
+	font-size: 30px;
+	
+}
+.services-cards{
+	padding: 0px;
+}
+}
+/* services end */

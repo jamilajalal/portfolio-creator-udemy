@@ -183,3 +183,45 @@ text-align: center;
 }
 }
 
+/* TRUSTED BY START */
+
+
+.trusted-by h6{
+	text-align: center;
+	font-size: 18px;
+	font-weight: 400;
+
+}
+
+.partner-companies {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 45px;
+}
+
+/* odd tek even cut */
+@media(max-width:768px){
+.partner-companies .partner-company:nth-child(even){
+	display: none;
+}
+
+}
+/* psedo element/class */
+
+@media(max-width:500px){
+.partner-companies .partner-company :not(:first-child){
+	display: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+/* TRUSTED BY END */

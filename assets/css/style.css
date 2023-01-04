@@ -266,3 +266,165 @@ flex-wrap: wrap;
 }
 }
 /* services end */
+
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.qrup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text h6{
+    font-size: 22px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: 
+    #B16CEA;
+
+}
+.text h1{
+    font-size: 54px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.projects button{
+    width: 201px;
+    height: 58px;
+    background-color: #222;
+    color: #fff;
+    font-size: 18px;
+    margin-right: 112px;
+}
+.projects {
+    padding-top: 150px;
+    padding-left: 113px;
+}
+.project1{
+    background-color:#fff;
+}
+.project2{
+    background-color:#fff;
+}
+.project3{
+    background-color:#fff;
+}
+.wiew-project{
+    display: flex;
+    justify-content: space-around;
+
+    position:relative;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.latest-blogs{
+	display: flex;
+	justify-content: space-between;
+	/* align-items: center; */
+    width:1485px;
+    height: 1770px;
+    background-color: #000;
+    margin-top: -160px;
+}
+.latest-left-side{
+display: flex;
+flex-direction: column;
+flex: 1;
+
+    padding-left: 133px;
+}
+.latest-left-side h1,h6{
+color: #fff;
+}
+.latest-left-side h1{
+top: 38px;
+font-weight: 700;
+letter-spacing: 1px;
+font-size: 54px;
+}
+.latest-left-side h5{
+    padding-top:200px;
+    color: 
+    #FFA84B;
+	width: 99px;
+	height: 22px;
+	letter-spacing: 4px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.latest-left-side h6{
+	font-size: 18px;
+	font-weight: 700;	
+}
+.latest-left-side a img{
+	position: relative;
+top: -60px;
+left:100px
+
+}
+.latest-right-side{
+display: flex;
+flex-direction: column;
+flex-basis: 55%;
+padding-top: 240px;
+
+}
+.latest-right-side h6{
+color: #FFFFFFB2;
+	
+}
+.latest-right-side h1{
+	color: #fff;
+	padding-top:24px ;
+}
+.latest-right-side h4{
+	color: #fff;
+	position: relative;
+	padding-top: 52px;
+}
+.latest-right-side a{
+	position: relative;
+	top: -35px;
+	left:140px
+}
+.latest-right-side hr{
+	position: relative;
+	right: 60px;
+	width: 692px;
+	height: 1px;
+	color: 
+	#FFFFFF
+	30%;
+	background: rgba(255, 255, 255, 0.3);;
+opacity: 0.3;
+}
+.latest-right-side .vector1, .vector2{
+	position:relative;
+	left: 580px;
+	width: 54px;
+	
+}
+.vector{
+	display: flex;
+
+}
+.vector1{
+
+	padding-right: 10px;
+}

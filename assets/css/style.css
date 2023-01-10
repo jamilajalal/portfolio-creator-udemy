@@ -651,7 +651,7 @@ opacity: 0.3;
 /* EDUCATION START */
 
 .education{
-height: 900px;
+height: 600px;
 width: 1500px;
 display: flex;
 padding-left: 112.5px;
@@ -730,6 +730,7 @@ padding-bottom: 80px;
 
 @media(max-width:1415px){
 	.education{
+		height: 900px;
 		display: flex;
 		flex-direction: column;
 	}

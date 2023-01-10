@@ -651,126 +651,114 @@ opacity: 0.3;
 /* EDUCATION START */
 
 .education{
-	/* height: 100vh; */
+height: 900px;
+width: 1500px;
+display: flex;
+padding-left: 112.5px;
+/* padding-right: 112.5px; */
+}
+
+.education-left-side{
+	flex-basis: 40%;
+	padding-right: 100px;
+
+}
+.education-right-side{
+	/* padding-top: 100px; */
 	display: flex;
-	padding: 80px 112.5px 50px
+	flex-direction: column;
+	flex: 1;
+
+}
+.education hr{
+	width: 528px;
+	height: 1px;
+	position: relative;
+right: 88px;
+}
+.eduimg1{
+	width: 200px;
+	padding-bottom: 80px;
+}
+.eduimg2{
+	width: 300px;
+padding-bottom: 80px;
+	
+	
+}
+.logotext{
+	display: flex;
+
 }
 .education a{
 	text-decoration: none;
-	color: 
-	rgba(0, 0, 0, 1);
 	font-size: 24px;
+	font-weight: 700;
+    color:#000
 }
-
-.education-left-side{
-	flex-basis: 50%;
-
-	
-}
-	
-.experience-right-side{
-
-	flex: 1;
-	position: relative;
-	/* top: -4px; */
-	
-	/* padding: 200px; */
-
-}
-.education hr{
-	
-	position: relative;
-	width: 517px;
-	height: 1px;
-	opacity: 0.5;
-
-}
-.education a{
-	display: block;
-}
-.experience-right-side hr{
-right: 50px;
-}
-.education-left-side hr{
-	right: 22px;
-
-}
-
-.kingdom{
-	
-	display: flex;
-	flex-direction: column;
+.education p{
+	color: 
+	rgba(0, 0, 0, 0.6);
+	opacity: 0.8;
 }
 
 .edu{
+	width: 500px;
 	display: flex;
-	flex-direction: row;
+	justify-content: space-between;
+	
+}
+.education-right-side .edu{
+	display: flex;
 	justify-content: space-between;
 }
-.edu .vector{
+
+.number{
 	position: relative;
-	top: -22px;
-	right: 60px;
-}
-
-.edu p{
-color: 
-rgba(0, 0, 0, 0.6);
-padding-right: 85px;
+	left: 190px;
 
 }
-
-.explogo{
+.avector{
 	display: flex;
-
-
+	justify-content: space-between;
 }
-.left-side-photo{
-padding-bottom: 70px;
-}
-.right-side-photo{
-padding-bottom: 70px;
+.education-left-side hr{
+	position: relative;
+	left: 3px;
+	width:600px;
 }
 
-@media(max-width:1371px){
-	.experience-right-side{
-		min-width:600px;
-
-	}
-.education-left-side{
-	min-width:600px;
-}
-}
-@media(max-width:1270px){
+@media(max-width:1415px){
 	.education{
 		display: flex;
 		flex-direction: column;
-		padding-bottom: 200px;
 	}
-.education hr{
-	width: 600px;
-	right: 200px;
+	.education-left-side hr{
+		margin: 0;
+		position: relative;
+		right: 50px;
+	}
+	.education-right-side hr{
+		margin: 0;
+		left: 15px;
+	}
+	.eduvector{
+		position: relative;
+		right:845px;
+	}
+	.eduimg2{
+		padding-top: 50px;
+	}
 }
-.experience-right-side .vector{
-	left:50px
+@media(max-width:780px){
+	.education a{
+		font-size: 16px;
+	}
+	.education{
+		padding-left: 10px;
+	}
+	
 }
-.experience-right-side .vectoredu{
-	position: relative;
-	left:105px
-}
-.education-left-side .vector{
-	right: 300px;
-}
-.education-left-side hr{
-	width: 726px;
-	right: 140px;
-}
-}
-
-
-
-
-
 
 /* TESTIMONIALS START */
 .testimonials{
